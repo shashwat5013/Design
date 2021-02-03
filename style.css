@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(closest-corner at 50% 50%,
+      rgb(52, 31, 151,0.70) ,
+      rgb(52, 31, 151) 70%);
+}
+
+.signature{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.menu-outer{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+}
+.menu-inner{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    box-shadow: 5px 5px 20px rgb(105, 101, 101);
+    transform: translate(18%,18%);
+}
+.shifting-slide-up{
+    transform: translate(5%,-20%);
+}
